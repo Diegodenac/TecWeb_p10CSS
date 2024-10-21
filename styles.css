@@ -1,0 +1,88 @@
+body{
+    margin: 0;
+}
+.uno, .seis{
+    background-color: red;
+    flex-basis: 350px;
+    flex-grow: 1;
+    height: 250px;
+}
+.dos, .siete{
+    background-color: orange;
+    height: 250px;
+    flex-basis: 350px;
+    flex-grow: 2;
+    flex-shrink: 1;
+}
+.tres, .ocho{
+    background-color: blue;
+    flex-basis: 350px;
+    height: 250px;
+}
+.cuatro{
+    background: green;
+    flex-basis: 350px;
+    height: 250px;
+}
+.cinco{
+    background: pink;
+    flex-basis: 350px;
+    height: 250px;
+}
+.contenedor-flexible{
+    background-color: grey;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    height: 600px; 
+    align-content: flex-start;
+}
+
+/*EJERCICIO 1*/
+.elemento-flexible{
+    color: white;
+    font-size: 5rem;
+}
+.flex-block{
+    background-color: grey;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    height: 100vh; 
+    align-content: flex-start;
+}
+.flex-block2{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+.hamburguesa{
+    background-color: red;
+    flex-basis: 50%;
+    height: 100vh;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-direction: column;
+    background-image: url("/img/uno.jpg");
+    background-size: cover;
+}
+.papas{
+    background-color: blue;
+    flex-basis: 50vh;
+    flex-grow: 1;
+    flex-shrink: 1;
+    background-image: url("/img/dos.jpg");
+    
+}
+.refresco{
+    background-color: green;
+    flex-basis: 50vh;
+    flex-grow: 1;
+    flex-shrink: 1;
+    background-image: url("/img/tres.jpg");
+    background-size: cover;
+}
